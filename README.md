@@ -18,8 +18,7 @@ Todas as versões: [Releases](https://github.com/luizguil99/polvo-release/releas
 
 ### macOS
 1. Abra o `Polvo-arm64.dmg` e arraste o **Polvo** para **Aplicativos**.
-2. Na primeira vez, se o macOS disser que não pode verificar o app: **Ajustes do Sistema → Privacidade e Segurança → Abrir Mesmo Assim**.
-   Ou no Terminal: `xattr -dr com.apple.quarantine /Applications/Polvo.app`
+2. Abra o Polvo normalmente: o app é assinado com Developer ID e notarizado pela Apple.
 
 ## Atualizações
 - **macOS:** o Polvo baixa a atualização em segundo plano, confere o checksum e a assinatura, e ao reiniciar uma janelinha nativa mostra o progresso enquanto o app é trocado (se a nova versão não abrir, a anterior é restaurada).
